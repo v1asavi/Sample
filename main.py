@@ -10,7 +10,7 @@ import streamlit as st
 st.write("<h1>Hello Priya</h1>",unsafe_allow_html=True)
 
 #apply style
-st.write("<h1 style='color:blue;'>Hello Priya</h1>",unsafe_allow_html=True)
+st.write("<h1 style='color:blue;'>Hello snehitha</h1>",unsafe_allow_html=True)
 
 #upload file
 st.file_uploader("upload file")
