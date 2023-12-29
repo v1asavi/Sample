@@ -24,6 +24,19 @@ st.video("https://www.youtube.com/watch?v=DBlMnnuVBO4")
 #taking an image as input and displaying it
 img=st.file_uploader("upload image")
 st.image(img)
+import streamlit as st
+import numpy as np
+
+st.set_page_config(layout ="wide")
+st.title("Student Management System")
+st.sidebar.title("Fee Management System")
+
+st.sidebar.subheader("Add Student")
+rollnumber=st.sidebar.number_input("Roll Number")
+name=st.sidebar.text_input("Name")
+fees=st.sidebar.number_input("Fees")
+add=st.sidebar.button("Add")
+
 
 
 
